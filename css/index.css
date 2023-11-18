@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d3d3d3;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    min-height: 100vh;
+    text-align: left;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+h1 {
+    font-family: cursive, sans-serif;
+    font-size: 28px;
+    margin-top: 20px 0;
+}
+
+.solution {
+    margin-top: 40px;
+    font-size: 35px;
+    font-family: "Times", sans-serif;
+    color: #dd5415;
+}
+
+.button {
+    margin-top: 20px;
+}
+
+.header-buttons {
+    text-align: right;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.header-buttons a {
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #133b66;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.phone-icon {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.contact-info {
+    text-align: right;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+}
+
+.contact-info i {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    display: inline;
+}
