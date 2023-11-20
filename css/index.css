@@ -1,35 +1,100 @@
 body {
     margin: 0;
-    padding: 0;
-    background-color: #d3d3d3;
+    background-color: rgb(255, 255, 255);
 }
 
 .container {
     max-width: 100%;
     margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 20px;
+    /* background-color: rgba(255, 255, 255, 0.9); */
+    padding: 0;
     min-height: 100vh;
     text-align: left;
+    position: relative; 
 }
 
-img {
+.banner {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.banner_top img {
     max-width: 100%;
     height: auto;
-    margin-top: 20px;
 }
 
-h1 {
-    font-family: cursive, sans-serif;
-    font-size: 28px;
-    margin-top: 20px 0;
+.new-button {
+    position: absolute;
+    top: 50px;
+    left: 160px; 
+    text-decoration: none;
+    padding: 20px 30px;
+    background-color: #ffffff;
+    color: #8b8080;
+    border-radius: 2px;
+    font-size: 22px;
 }
+
+
+
+.btn_pesq {
+    text-align: right;
+    position: absolute;
+    top: 130px;
+    right: 22px;
+
+}
+
+.btn_pesq input[type="text"] {
+    padding: 10px 40px;
+    border: 1px solid #133b66;
+    border-radius: 10px;
+    font-size: 22px;
+}
+
+.btn_pesq a { 
+    text-decoration: none;
+    padding: 12px 25px;
+    background-color: #133b66;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.main_banner {
+    margin-top: -150px; 
+}
+
+.main_banner img{
+    max-width: 100%;
+    height: auto;
+    margin-top: 0;
+}
+
+.logo {
+    max-width: 100%;
+    margin-top: -80px; 
+}
+
 
 .solution {
     margin-top: 40px;
     font-size: 35px;
     font-family: "Times", sans-serif;
     color: #dd5415;
+}
+
+.solution img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 0px;
+}
+
+h2 {
+    text-align: center;
 }
 
 .button {
@@ -39,38 +104,39 @@ h1 {
 .header-buttons {
     text-align: right;
     position: absolute;
-    top: 20px;
+    top: 70px;
     right: 20px;
 }
 
 .header-buttons a {
     text-decoration: none;
-    padding: 5px 10px;
+    padding: 12px 25px;
     background-color: #133b66;
     color: #fff;
     border-radius: 10px;
-    font-size: 12px;
+    font-size: 19px;
     margin-left: 10px;
 }
 
-.phone-icon {
-    font-size: 16px;
+/* .phone-icon {
+    font-size: 26px;
     margin-right: 10px;
 }
 
 .contact-info {
+    margin-top: 25px;
     text-align: right;
     position: absolute;
-    top: 50px;
-    right: 20px;
+    top: 49px;
+    right: 35px;
 }
 
 .contact-info i {
-    font-size: 16px;
+    font-size: 24px;
     margin-right: 10px;
 }
 
 .contact-info p {
-    font-size: 16px;
+    font-size: 21px;
     display: inline;
-}
+} */
