@@ -10,7 +10,7 @@ body {
     padding: 0;
     min-height: 100vh;
     text-align: left;
-    position: relative; 
+    position: relative;
 }
 
 .banner {
@@ -28,7 +28,7 @@ body {
 .new-button {
     position: absolute;
     top: 50px;
-    left: 160px; 
+    left: 160px;
     text-decoration: none;
     padding: 20px 30px;
     background-color: #ffffff;
@@ -37,14 +37,11 @@ body {
     font-size: 22px;
 }
 
-
-
 .btn_pesq {
     text-align: right;
     position: absolute;
     top: 130px;
     right: 22px;
-
 }
 
 .btn_pesq input[type="text"] {
@@ -54,7 +51,7 @@ body {
     font-size: 22px;
 }
 
-.btn_pesq a { 
+.btn_pesq a {
     text-decoration: none;
     padding: 12px 25px;
     background-color: #133b66;
@@ -65,10 +62,10 @@ body {
 }
 
 .main_banner {
-    margin-top: -150px; 
+    margin-top: -150px;
 }
 
-.main_banner img{
+.main_banner img {
     max-width: 100%;
     height: auto;
     margin-top: 0;
@@ -76,9 +73,8 @@ body {
 
 .logo {
     max-width: 100%;
-    margin-top: -80px; 
+    margin-top: -80px;
 }
-
 
 .solution {
     margin-top: 40px;
@@ -118,25 +114,29 @@ h2 {
     margin-left: 10px;
 }
 
-/* .phone-icon {
-    font-size: 26px;
-    margin-right: 10px;
-}
 
-.contact-info {
-    margin-top: 25px;
-    text-align: right;
-    position: absolute;
-    top: 49px;
-    right: 35px;
-}
+@media only screen and (max-width: 600px) {
+    .banner {
+        flex-direction: column; 
+        align-items: flex-start; 
+        padding: 0 10px; 
+    }
 
-.contact-info i {
-    font-size: 24px;
-    margin-right: 10px;
-}
+    .new-button {
+        position: static;
+        margin-top: 20px; 
+    }
 
-.contact-info p {
-    font-size: 21px;
-    display: inline;
-} */
+    .btn_pesq {
+        margin-top: 20px; 
+        text-align: left; 
+    }
+
+    .btn_pesq input[type="text"] {
+        width: 100%; 
+    }
+
+    .header-buttons {
+        top: 20px;
+    }
+}
