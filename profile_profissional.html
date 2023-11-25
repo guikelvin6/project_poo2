@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/profile_profissional.css">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script defer src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script defer src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script defer src="js/profile_profissional.js"></script>
     <title>Perfil profissional</title>
 </head>
 <body>
@@ -47,31 +50,81 @@
                 </table>
             </div>    
         </section>
+        <h2>Agenda de Consultas</h2>
+        <div class="marcadores">
+            <li>
+                <span class="legenda-vermelha">em aberto</span>
+                <span class="legenda-verde">concluido</span>
+            </li>
 
-            <div class="agenda">
-                <h2>Agenda de Consultas</h2>
-
-                <div class="dia-agendado" data-date="2023-11-25" data-cliente="Cliente 1">
-                    <span class="data-agendada">25/11/2023</span>
-                </div>
-                <div class="dia-agendado" data-date="2023-11-26" data-cliente="Cliente 2">
-                    <span class="data-agendada">26/11/2023</span>
-                </div>
-                <div class="dia-agendado" data-date="2023-11-27" data-cliente="Cliente 3">
-                    <span class="data-agendada">27/11/2023</span>
-                </div>
-
-                <div id="detalhesClienteDialog" title="Detalhes do Agendamento">
-                    <p id="nomeCliente"></p>
-                    <p id="dataAgendada"></p>
-                    <button class="concluir-agendamento-dialog">Concluir</button>
-                </div>
+        </div>
+        <div class="agenda">
+            <div class="dia-agendado" data-date="2023-11-25" data-cliente="Cliente 1">
+                <span class="data-agendada">25/11/2023</span>
+            </div>
+            
+            <div class="dia-agendado" data-date="2023-11-27" data-cliente="Cliente 3">
+                <span class="data-agendada">27/11/2023</span>
             </div>
 
+            <div class="dia-agendado" data-date="2023-11-28" data-cliente="Cliente 1">
+                <span class="data-agendada">28/11/2023</span>
+            </div>
+
+            <div class="dia-agendado" data-date="2023-11-29" data-cliente="Cliente 2">
+                <span class="data-agendada">29/11/2023</span>
+            </div>
+
+            <div class="dia-agendado" data-date="2023-11-30" data-cliente="Cliente 3">
+                <span class="data-agendada">30/11/2023</span>
+            </div>
+
+            <div class="dia-agendado" data-date="2023-11-31" data-cliente="Cliente 1">
+                <span class="data-agendada">31/11/2023</span>
+            </div>
+
+            <div class="dia-agendado" data-date="2023-12-01" data-cliente="Cliente 2">
+                <span class="data-agendada">01/12/2023</span>
+            </div>
+
+            <div class="dia-agendado" data-date="2023-12-02" data-cliente="Cliente 3">
+                <span class="data-agendada">02/12/2023</span>
+            </div>
+            
+            <div class="dia-agendado" data-date="2023-12-03" data-cliente="Cliente 1">
+                <span class="data-agendada">03/12/2023</span>
+            </div>
+
+            <div class="dia-agendado" data-date="2023-12-04" data-cliente="Cliente 2">
+                <span class="data-agendada">04/12/2023</span>
+            </div>
+
+            <div class="dia-agendado" data-date="2023-12-05" data-cliente="Cliente 3">
+                <span class="data-agendada">05/12/2023</span>
+            </div>
+
+            <div class="dia-agendado" data-date="2023-12-06" data-cliente="Cliente 1">
+                <span class="data-agendada">06/12/2023</span>
+            </div>
+
+            <div class="dia-agendado" data-date="2023-12-07" data-cliente="Cliente 2">
+                <span class="data-agendada">07/12/2023</span>
+            </div>
+
+            <div class="dia-agendado" data-date="2023-12-08" data-cliente="Cliente 3">
+                <span class="data-agendada">08/12/2023</span>
+            </div>
+
+            
+
+            <div id="detalhesClienteDialog" title="Detalhes do Agendamento">
+                <p id="nomeCliente"></p>
+                <p id="dataAgendada"></p>
+                <button class="concluir-agendamento-dialog">Concluir</button>
+            </div>
+        </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script src="js/profile_profissional.js"></script>
+    
 </body>
 </html>

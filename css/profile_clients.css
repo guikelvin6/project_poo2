@@ -37,9 +37,13 @@ h1 {
 }
 
 .cliente_info {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
+    max-width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .column {
@@ -64,9 +68,106 @@ th {
 }
 
 h2 {
-    color: #333;
+    background-color: #60b7f1;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
 }
+
+h3 {
+
+    color: #044e80;
+    padding: 5px;
+    text-align: center;
+}
+
 
 p {
     line-height: 1.5;
+}
+
+
+
+/* body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+} */
+
+.chat-container {
+    max-width: 100%;
+    margin: 50px auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chat-header {
+    /* background-color: #60b7f1; */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.chat-body {
+    padding: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.message {
+    background-color: #ecf0f1;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.message.sent {
+    background-color: #60b7f1;
+    color: #fff;
+    align-self: flex-end;
+}
+
+.chat-footer {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-footer textarea {
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: none;
+}
+
+.chat-footer button {
+    background-color: #60b7f1;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.chat-footer button:hover {
+    background-color: #206391;
+}
+
+
+button[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #2980b9;
 }

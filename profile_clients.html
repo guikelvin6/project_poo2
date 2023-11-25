@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/profile_clients.css">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script defer src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script defer src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script defer src="js/profile_clients.js"></script>
+    <script defer src="js/chat.js"></script>
     <title>Perfil clientes</title>
 </head>
 <body>
@@ -26,7 +30,7 @@
                     </tr>
                     <tr>
                         <th>CPF:</th>
-                        <td>000.000</td>
+                        <td>000.000.000-00</td>
                     </tr>
                     <tr>
                         <th>Email:</th>
@@ -37,6 +41,20 @@
                         <td>(00) 1234-5678</td>
                     </tr>
                 </table>
+
+                <div class="chat-container">
+                    <div class="chat-header">
+                        <h2>Chat FisioAgenda</h2>
+                        <h3>Para confirmar, combine os detalhes para seu atendimento com o profissional.</h3>
+                    </div>
+                    <div class="chat-body" id="chatBody">
+                        <h3></h3>
+                    </div>
+                    <div class="chat-footer">
+                        <textarea id="messageInput" placeholder="Digite sua mensagem..."></textarea>
+                        <button id="sendMessage">Enviar</button>
+                    </div>
+                </div>
 
                 <h2>Agenda de Consultas</h2>
                 <form id="consultaForm">
@@ -52,8 +70,6 @@
         </section>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script src="js/profile_clients.js"></script>
+
 </body>
 </html>
