@@ -37,7 +37,7 @@ h1 {
 }
 
 .cliente_info {
-    max-width: 80%;
+    max-width: 100%;
     margin: 50px auto;
     background-color: #fff;
     border: 1px solid #ddd;
@@ -49,6 +49,11 @@ h1 {
 .column {
     flex: 1;
     margin-right: 20px;
+}
+
+.listaProfiss {
+    max-width: 100%;
+    border-radius: 8px;
 }
 
 table {
@@ -171,3 +176,4 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: #2980b9;
 }
+

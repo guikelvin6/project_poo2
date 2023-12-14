@@ -47,3 +47,45 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
+.botao {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.mensagem {
+    margin-top: 20px;
+    padding: 10px;
+    color: #000000;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(242, 250, 252);
+}
+
+.registra-se a {
+    background-color: #133b66;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+}
+
+.footer a { 
+    margin-top: 20px;
+    text-decoration: none;
+}

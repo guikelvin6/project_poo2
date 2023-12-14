@@ -6,23 +6,29 @@ body {
 .container {
     max-width: 600px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 30px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.logo img {
+    max-width: 70%;
+    margin: auto;
+    display: block; 
+
+}
+
 h1 {
     font-size: 28px;
     color: #333;
-    margin-bottom: 20px;
 }
 
 label {
     display: block;
+    text-align: center;
     font-size: 16px;
     color: #555;
-    margin-top: 10px;
 }
 
 input {
@@ -36,12 +42,9 @@ input {
 .choose-buttons {
     margin: 20px;
     text-align: center;
-
 }
 
-.choose-buttons a {
-    text-decoration: none;
-    outline: none;
+.choose-buttons button {
     padding: 8px 20px;
     background-color: #133b66;
     color: #fff;
@@ -49,46 +52,17 @@ input {
     font-size: 19px;
 }
 
-.choose-buttons a:hover {
+.choose-buttons button:hover {
     background-color: #0056b3;
 }
 
 .footer {
-    display: flex;
-    width: 100%;
-    margin-top: 20px;
-    justify-content: space-between;
-    
+    text-align: center;
+    padding: 20px;
 }
 
 .footer a {
-    color: #133b66;
-    text-decoration: none;
-    padding: 5px 10px;
-
-}
-
-.footer a:hover {
-    color: #333;
-}
-
-.registre-se {
-    text-align: center;
-    justify-content: space-between;
-    width: 100%;
+    width: 10%;
     margin-top: 20px;
-}
- 
-.registre-se a {
-    color: #133b66;
     text-decoration: none;
-    padding: 8px 20px;
-    background-color: #133b66;
-    color: #fff;
-    border-radius: 8px;
 }
-
-.registre-se a:hover {
-    background-color: #0056b3;
-} 
-
